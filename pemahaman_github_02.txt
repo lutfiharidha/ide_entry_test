@@ -1,0 +1,5 @@
+- git branch new_branch
+- git checkout new_branch
+- git add . 
+- git commit -m "add file pemahaman github 02"
+- git pull orign new_branch
