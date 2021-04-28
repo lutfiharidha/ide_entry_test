@@ -1,8 +1,18 @@
-<p id="demo"></p>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script>
-    var names= ["Andi", {"Name":"Gunawan", "Address":"Jl. Kemerdekaan 01"},"Budi"];
-    $.each(names[1], function( index, value ) {
-        $("#demo").append(index + ": " + value + '<br>');
-      }) 
-</script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PEMAHAMAN JAVASCRIPT / JQUERY</title>
+</head>
+<body>
+  <p id="demo"></p>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+      var names= ["Andi", {"Name":"Gunawan", "Address":"Jl. Kemerdekaan 01"},"Budi"];
+      $.each(names[1], function( index, value ) {
+          $("#demo").append(index + ": " + value + '<br>');
+        }) 
+  </script>
+</body>
+</html>
