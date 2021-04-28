@@ -3,3 +3,5 @@
 - git add . 
 - git commit -m "add file pemahaman github 02"
 - git pull orign new_branch
+- buka link https://github.com/pandamalam/ide_entry_test/pull/new/new_branch
+- klik create pull request
