@@ -1,0 +1,3 @@
+Kegunaan file `.env` ialah untuk mengkofigurasi evironment aplikasi web, didalam fle `.env` terdapat environment vaiabel memungkinkan pengembang untuk menjaga kredensial sensitif dari kode sumber.
+
+Kegunaan Direktori config untuk menyimpan aneka konfigurasi core Laravel dan tambahan package untuk Laravel. Semisal file app.php untuk mendaftar package tambahan di Laravel yang tersimpan pada folder ini.

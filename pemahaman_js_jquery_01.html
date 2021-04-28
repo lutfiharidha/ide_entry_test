@@ -1,0 +1,8 @@
+<p id="demo"></p>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+    var names= ["Andi", {"Name":"Gunawan", "Address":"Jl. Kemerdekaan 01"},"Budi"];
+    $.each(names[1], function( index, value ) {
+        $("#demo").append(index + ": " + value + '<br>');
+      }) 
+</script>

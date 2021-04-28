@@ -1,0 +1,18 @@
+<img id="loadingDiv" src="https://flevix.com/wp-content/uploads/2019/07/Comp-2.gif">
+<button type="" id="btn">Show Data</button>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+    $("#loadingDiv").hide();
+    $('#btn').on( "click" , function( event ){
+        $.get( "https://test-ujian-masuk.infraedukasi.com" ,);
+     });   
+     $(document).ajaxStart(function() {
+         console.log("START");
+         $("#loadingDiv").show();
+     }).ajaxStop(function() {
+         console.log("END");
+         $("#loadingDiv").hide('slow');
+     });
+     
+</script>
